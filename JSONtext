@@ -1,0 +1,29 @@
+Create new user
+{
+"name" : "Trevor",
+"age" : 30,
+"gender" : "male",
+"matchminage" : 25,
+"matchmaxage" : 30
+}
+{
+"name" : "Amelia",
+"age" : 27,
+"gender" : "female",
+"matchminage" : 25,
+"matchmaxage" : 32
+}
+
+Create new question
+{
+"prompt" : "Flight or invisibility"
+}
+{
+"prompt" : "Snickers or Twix"
+}
+
+Create new date review
+{
+"postcontent" : "It was pretty meh",
+"rating" : 3
+}
