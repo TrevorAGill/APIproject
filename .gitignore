@@ -36,7 +36,15 @@ Thumbs.db
 ############
 build/
 .gradle/
-Gradlew
-Gradlew.bat
+gradle/
+gradlew*
 settings.gradle
 gradle/wrapper/gradle-wrapper.properties
+
+# IntelliJ #
+############
+.idea
+.idea/
+.iml
+.iml/
+*.iml

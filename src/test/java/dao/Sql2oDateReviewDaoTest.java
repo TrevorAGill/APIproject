@@ -64,7 +64,7 @@ public class Sql2oDateReviewDaoTest {
         return new DateReview(1,"Meh",2,2);
     }
     public static DateReview setupDateReview2 (){
-        return new DateReview(2,"Awesome",1,5);
+        return new DateReview(1,"Awesome",1,5);
     }
 
 }
