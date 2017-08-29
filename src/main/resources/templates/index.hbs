@@ -2,34 +2,83 @@
     <h1>##### App </h1>
     <hr>
 
+<div class = "row">
+<div class = "col-md-6">
+        {{#each foundquestions}}
 
-    {{#each foundquestions}}
-        {{prompt}}<br>
-        <div class="radio">
-            <label>
-                <input type="radio" name={{id}} value="1">
-                {{choice1}}
-            </label>
-        </div>
-        <div class="radio">
-            <label>
-                <input type="radio" name={{id}} value="2">
-                {{choice2}}
-            </label>
-        </div>
-        <div class="radio">
-            <label>
-                <input type="radio" name={{id}} value="3">
-                {{choice3}}
-            </label>
-        </div>
-        <div class="radio">
-            <label>
-                <input type="radio" name={{id}} value="4">
-                {{choice4}}
-            </label>
-        </div>
-    {{/each}}
+
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h2 class="panel-title">Your Answer</h2>
+                </div>
+            <div class="panel-body">
+            {{prompt}}<br>
+            <div class="radio">
+                <label>
+                    <input type="radio" name={{id}} value="1">
+                    {{choice1}}
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name={{id}} value="2">
+                    {{choice2}}
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name={{id}} value="3">
+                    {{choice3}}
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name={{id}} value="4">
+                    {{choice4}}
+                </label>
+            </div>
+            </div>
+            </div>
+
+        {{/each}}
+</div>
+    <div class = "col-md-6">
+        {{#each foundquestions}}
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h2 class="panel-title">Answers You'll Accept</h2>
+                </div>
+                <div class="panel-body">
+                    {{prompt}}<br>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name={{id}} value="1">
+                            {{choice1}}
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name={{id}} value="2">
+                            {{choice2}}
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name={{id}} value="3">
+                            {{choice3}}
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name={{id}} value="4">
+                            {{choice4}}
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+        {{/each}}
+</div>
 
 
         <footer class="footer">
